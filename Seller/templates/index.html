@@ -1,0 +1,98 @@
+{% extends base %}
+
+{% block title %}Model Based Pricing{% endblock %}
+
+{% block postamble %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- <link rel="stylesheet" href="http://169.254.45.215:5000/uploads/bootstrap.min.css">
+<script src="http://169.254.45.215:5000/uploads/jquery-3.3.1.slim.min.js"></script>
+<script src="http://169.254.45.215:5000/uploads/popper.min.js"></script>
+<script src="http://169.254.45.215:5000/uploads/bootstrap.min.js"></script> -->
+  <style>
+    {% include 'styles.css' %}
+  </style>
+
+{% endblock %}
+
+{% block contents %}
+  <div class="content">
+    <!-- <h1>Nimbus</h1> -->
+<!-- <div class="container"> -->
+      <!-- <h1>Dropdown <small>Bootstrap Visual Test</small></h1> 
+
+<nav class="navbar navbar-inverse navbar-expand-md navbar-dark fixed-top bg-dark"> -->
+<!-- <nav class="navbar navbar-expand-lg bg-inverse navbar-toggleable-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="#">Nimbus</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav> -->
+
+<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-md-center" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Nimbus</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Seller</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<h1> </h1> --> 
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-md-center" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Nimbus</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Role: Seller</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<h1> </h1>  
+
+    <!-- <p>In Lingjiao Chen's <a href="https://arxiv.org/abs/1805.11450">
+    Model-based Pricing Paper</a> he proposed a model-based pricing (MBP) framework, which directly prices ML model instances instead of pricing the data. Here, we demonstrate a set of interactive interfaces that implements the framework. The audience can play the role of sellers to vend their own ML models with different price requirements, as well as the role of buyers to purchase ML model instances with different accuracy/budget constraints. </p> -->
+
+    {{ super() }}
+
+<!--     <p>You can skip ahead to 3m 58s to see him talking through the plot we've
+    just made. Or sit back and enjoy a great example of statistics
+    communication.</p>
+
+    <div class="videoWrapper">
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/hVimVzgtD6w" frameborder="0" allowfullscreen></iframe>
+    </div> -->
+  </div>
+
+{% endblock %}
+
+
