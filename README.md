@@ -1,6 +1,11 @@
 # Nimbus
 Interactive model based pricing UI
 
+Reference: 
+[Our Demo Paper](https://github.com/chenleshang/Nimbus/blob/master/NimbusDemo_SIGMOD.pdf)
+[Our Poster](https://github.com/chenleshang/Nimbus/blob/master/Nimbus_Poster.pdf)
+[Full Paper](https://arxiv.org/pdf/1805.11450.pdf)
+
 Requirements: 
 
 `pip install flask`
