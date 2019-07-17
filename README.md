@@ -1,4 +1,4 @@
-# Blash
+# Nimbus
 Interactive model based pricing UI
 
 Requirements: 
