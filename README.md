@@ -1,14 +1,17 @@
 # Blash
 Interactive model based pricing UI
+
 Requirements: 
+
 `pip install flask`
+
 `pip install bokeh`
 
 ## Seller Upload
 This is the view port for seller uploading files. 
 
 ### How to run seller upload
-In ./testupload, run these command in order: 
+In ./SellerUpload, run these command in order: 
 
 `export FLASK_APP=flasktest.py`
 
