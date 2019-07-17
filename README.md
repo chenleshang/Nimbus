@@ -22,9 +22,6 @@ Then open `localhost:5000`
 ## Seller
 This is the view port for seller. 
 
-## Seller
-This is the view port for seller. 
-
 ### How to use the Bokeh app: 
 Type in the following command from the root directory: 
 
