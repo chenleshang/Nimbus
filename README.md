@@ -18,7 +18,7 @@ This is the view port for seller uploading files.
 ### How to run seller upload
 In ./SellerUpload, run these command in order: 
 
-`export FLASK_APP=SellerUpload.py`
+`export FLASK_APP=sellerupload.py`
 
 `flask run --port 5000`
 
