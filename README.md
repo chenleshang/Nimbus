@@ -5,7 +5,7 @@ Interactive model based pricing UI Various domains such as business intelligence
 Reference: 
 [[Our Demo Paper](https://github.com/chenleshang/Nimbus/blob/master/NimbusDemo_SIGMOD.pdf)]
 [[Our Poster](https://github.com/chenleshang/Nimbus/blob/master/Nimbus_Poster.pdf)]
-[[Full Paper](https://arxiv.org/pdf/1805.11450.pdf)]
+[[Theories](https://arxiv.org/pdf/1805.11450.pdf)]
 
 Requirements: 
 
